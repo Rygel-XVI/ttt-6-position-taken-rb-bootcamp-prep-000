@@ -4,5 +4,6 @@ def position_taken?(board, index)
 #  if (spot == "X" || spot == "O")
   if (spot == " ")
     return false
+  else return true
   end
 end
